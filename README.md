@@ -1,11 +1,11 @@
 # Proyecto-Final-IoT
-# ⚡ Monitor Inteligente de Consumo Eléctrico con ESP32 + ADS1115 + ThingSpeak
+#Monitor Inteligente de Consumo Eléctrico con ESP32 + ADS1115 + ThingSpeak
 
 Proyecto IoT para medir corriente, potencia eléctrica y costo estimado de consumo en tiempo real utilizando un ESP32, un sensor SCT-013 y la plataforma ThingSpeak.
 
 ---
 
-# 📸 Vista General
+#Vista General
 
 Este sistema permite:
 
@@ -15,15 +15,12 @@ Este sistema permite:
 - Enviar datos a ThingSpeak
 - Monitorear desde cualquier lugar
 - Crear dashboards IoT
-
+  
 ---
-
-# 🧠 ¿Cómo funciona?
+#¿Cómo funciona?
 
 El sensor SCT-013 detecta la corriente consumida por un aparato eléctrico.
-
 El ADS1115 convierte la señal analógica a digital con alta precisión.
-
 El ESP32 procesa los datos:
 
 1. Calcula corriente RMS
@@ -33,7 +30,7 @@ El ESP32 procesa los datos:
 
 ---
 
-# 🛠 Componentes Utilizados
+#Componentes Utilizados
 
 | Componente | Cantidad |
 |---|---|
@@ -48,7 +45,7 @@ El ESP32 procesa los datos:
 
 ---
 
-# 🔌 Arquitectura del Sistema
+#Arquitectura del Sistema
 
 ```text
 ┌─────────────────┐
@@ -81,7 +78,7 @@ El ESP32 procesa los datos:
 
 ---
 
-# 🔧 Conexiones
+#Conexiones
 
 ## ADS1115 → ESP32
 
@@ -103,7 +100,7 @@ El ESP32 procesa los datos:
 
 ---
 
-# 📊 Variables Calculadas
+#Variables Calculadas
 
 El sistema calcula:
 
@@ -131,7 +128,7 @@ Costo = \left(\frac{P}{1000}\right) \times t \times tarifa
 
 ---
 
-# 🌐 Plataforma IoT
+#Plataforma IoT
 
 Se utilizó:
 
@@ -141,7 +138,7 @@ Se utilizó:
 
 ---
 
-# 📡 Datos enviados a ThingSpeak
+#Datos enviados a ThingSpeak
 
 | Campo | Variable |
 |---|---|
@@ -152,7 +149,7 @@ Se utilizó:
 
 ---
 
-# 🚀 Instalación
+#Instalación
 
 ## 1. Instalar Arduino IDE
 
@@ -204,7 +201,7 @@ const char* writeAPIKey = "TU_API_KEY";
 
 ---
 
-# 📈 Resultados
+#Resultados
 
 Ejemplo de salida serial:
 
@@ -214,7 +211,7 @@ Corriente: 0.523 A | Potencia: 57.5 W | Costo 1h: $0.0690 MXN | Costo mes: $49.6
 
 ---
 
-# 🔥 Posibles Mejoras
+#Posibles Mejoras
 
 - Pantalla OLED
 - Dashboard web personalizado
@@ -227,7 +224,7 @@ Corriente: 0.523 A | Potencia: 57.5 W | Costo 1h: $0.0690 MXN | Costo mes: $49.6
 
 ---
 
-# ⚠️ Seguridad
+#Seguridad
 
 Este proyecto trabaja con corriente AC.
 
@@ -240,7 +237,7 @@ RECOMENDACIONES:
 
 ---
 
-# 📚 Tecnologías Utilizadas
+#Tecnologías Utilizadas
 
 - C++
 - Arduino IDE
@@ -252,7 +249,7 @@ RECOMENDACIONES:
 
 ---
 
-# 📷 Proyecto
+#Proyecto
 
 Puedes usar este proyecto para:
 
@@ -265,7 +262,7 @@ Puedes usar este proyecto para:
 
 ---
 
-# 📷 Fotos
+#Fotos
 
 <img width="2560" height="1275" alt="image" src="https://github.com/user-attachments/assets/541f9932-929f-4002-bc22-683e209b79d2" />
 <img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/ade5d8bf-cd23-492a-9f7c-4fa87ab1172b" />
@@ -279,10 +276,6 @@ Puedes usar este proyecto para:
 <img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/0a405b13-bbea-46aa-aa50-db4379126a0f" />
 <img width="900" height="1600" alt="image" src="https://github.com/user-attachments/assets/397d9d60-6c9a-4f8e-a45a-2c62572b1adb" />
 
-
----
-
-# ⭐ Si te gustó el proyecto
 
 Dale una estrella al repositorio ⭐
 ```
