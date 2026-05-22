@@ -275,7 +275,4 @@ Puedes usar este proyecto para:
 <img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/a59b73bf-ddb8-4009-b111-0f65ce6ef4ea" />
 <img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/0a405b13-bbea-46aa-aa50-db4379126a0f" />
 <img width="900" height="1600" alt="image" src="https://github.com/user-attachments/assets/397d9d60-6c9a-4f8e-a45a-2c62572b1adb" />
-
-
-Dale una estrella al repositorio ⭐
 ```
